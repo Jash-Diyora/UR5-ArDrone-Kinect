@@ -4,14 +4,11 @@
 from __future__ import print_function
 
 import rospy
-
 from geometry_msgs import msg
 from std_msgs.msg import Empty, Float64
 from visualization_msgs.msg import Marker
 from tf.transformations import euler_from_quaternion
 from ardrone_autonomy.msg import Navdata
-from aruco_mapping.msg import *
-
 from pose import Pose
 import actionlib
 
