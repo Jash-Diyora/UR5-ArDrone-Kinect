@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 
-
 #libraries for kinect
 import rospy
 from skeleton_markers.msg import Skeleton
 from visualization_msgs.msg import Marker
-from geometry_msgs.msg import Point
+from geometry_msgs.msg import Point 
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String
 
@@ -26,6 +25,7 @@ z_right=0.00
 y_torso=0.00
 x_torso=0.00
 z_torso=0.00
+
 pose=Twist()
 st=String()
 lt=String()
